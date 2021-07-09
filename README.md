@@ -1,4 +1,4 @@
-** What is Uno BLCOKCHAIN?**
+What is Uno BLCOKCHAIN?
 #Introduction
 Bitcoin is gold, Light Coin is silver, and Unocoin is bronze. Unocoin is a digital asset built on Bitcoin that uses almost the same algorithm as Bitcoin in terms of technology. Unocoin is actually a derivative of Bitcoin. However, Unocoin's goal is to make up for Bitcoin's shortcomings and become a better digital asset. For example, Unocoin not only ran SegWit, but is also developing a lighting network based on it.​
 
