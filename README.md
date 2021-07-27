@@ -3,7 +3,7 @@
  
 
 # What is UNO?
-unocoin is a Blockchain using the highly-secure and power-efficient NIST5 algorithm. Combining limited Proof-of-Work, unocoin coin (unocoin) is unique in its distribution. 
+Unocoin is a Blockchain using the highly-secure and power-efficient NIST5 algorithm. Combining limited Proof-of-Work, unocoin coin (unocoin) is unique in its distribution. 
 
 <a name="specifications"></a>
 ## Technical Specifications
