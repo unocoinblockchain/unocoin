@@ -1,0 +1,26 @@
+[Unit]
+Description=unocoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=unocoin
+Group=unocoin
+
+Type=forking
+PIDFile=/var/lib/unocoind/unocoind.pid
+
+ExecStart=/usr/bin/unocoind -daemon -pid=/var/lib/unocoind/unocoind.pid \
+          -conf=/etc/unocoin/unocoin.conf -datadir=/var/lib/unocoind
+
+ExecStop=-/usr/bin/unocoin-cli -conf=/etc/unocoin/unocoin.conf \
+         -datadir=/var/lib/unocoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

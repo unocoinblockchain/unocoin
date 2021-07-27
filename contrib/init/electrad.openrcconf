@@ -1,0 +1,26 @@
+# /etc/conf.d/unocoind: config file for /etc/init.d/unocoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/unocoin/unocoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/unocoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/unocoind.pid"
+
+# Where to write unocoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/unocoind"
+
+# User and group to own unocoind process
+#BITCOIND_USER="unocoin"
+#BITCOIND_GROUP="unocoin"
+
+# Path to unocoind executable
+#BITCOIND_BIN="/usr/bin/unocoind"
+
+# Nice value to run unocoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
